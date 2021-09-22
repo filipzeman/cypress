@@ -20,7 +20,6 @@ describe('Complex test suite', () => {
         const emailLabelSecond = secondForm.find('[for="exampleInputEmail1"]').text()
         const passwordLabelSecond = secondForm.find('[for="exampleInputPassword1"]').text()
       
-        // expect(emailLabelSecond).to.equal(emailLabelFirst)
         expect(passwordLabelFirst).to.equal(passwordLabelSecond)
       })
     })    
